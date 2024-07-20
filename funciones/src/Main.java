@@ -5,7 +5,6 @@ import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // Ruta del archivo de entrada (ajusta la ruta según sea necesario)
         String inputFile = Paths.get("src/test.txt").toAbsolutePath().toString();
 
         // Lee el archivo de entrada
